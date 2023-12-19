@@ -24,14 +24,15 @@ input[type="text"]{
 
 button[type="submit"]:hover{
     color: chocolate;
-    background-color: lavender;
+    background-color: rgb(91, 91, 223);
     width: 80px;
     border-radius: 5px;
 }
 
 button[type="Clear"]:hover{
     color: chocolate;
-    background-color: lavender;
+    background-color: rgb(91, 91, 223);
     width: 80px;
     border-radius: 5px;
+    
 }
