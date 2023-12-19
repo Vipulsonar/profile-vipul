@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto&display=swap');
+
+/* Universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+/* Element or Name selector */
+label{
+    color: rgb(76, 160, 163);
+}
+/* Attribute selector */
+input[type="text"]{
+    border: 2px solid orange;
+    text-transform: capitalize;
+    width: 200px;
+    padding: 3px;
+    border-radius: 3px;
+    color: chocolate;
+}
+
+button[type="submit"]:hover{
+    color: chocolate;
+    background-color: lavender;
+    width: 80px;
+    border-radius: 5px;
+}
+
+button[type="Clear"]:hover{
+    color: chocolate;
+    background-color: lavender;
+    width: 80px;
+    border-radius: 5px;
+}
