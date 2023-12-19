@@ -6,22 +6,31 @@
     <title>Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,400;0,500;1,400&family=Rubik+Doodle+Shadow&family=Whisper&display=swap" rel="stylesheet">
 <style>
     #body{background-color: #292929; color: rgb(255, 253, 253);}
     .Heading{
         background-color: #353535;
-        color: #f5af54;font-family: 'Roboto', sans-serif; }
+        color: #f5af54;font-family: 'Poppins', sans-serif; }
         #imp{ color: rgb(245, 21, 21);}
-        #list_1{
-            font-style: italic;
-            font-size: medium;
-            color: rgb(202, 219, 219); }
+       .list_1{
+            font-family: 'Roboto',sans-serif;
+            font-size: larger;
+            color: rgb(202, 219, 219)
+            ; 
+        }
 
            .imp_1{color: rgb(241, 230, 230);}
            ul li{padding-bottom: 20px;
-        list-style-type: lower-roman;}
-       
+        list-style-type: none;}
+        #list_2 li::before{
+            content: "✔️";
+                    }
+        
+      ul #list_2  li::selection{
+            background-color: rgb(167, 171, 36);
+        }
+      
     
 </style>
 
@@ -29,11 +38,12 @@
 <body id="body">
     <h1 class="Heading"><Strong> <i><span class="imp_1">C</span>areer <span class="imp_1">O</span>bjectives: </i></Strong></h1>
 
-    <p>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORANIZATIONAL GROWTH</p>
+    <p class="list_1">TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORANIZATIONAL GROWTH</p>
 
 
     <h1 class="Heading"><strong><i><span class="imp_1">P</span>rofessional <span class="imp_1">S</span>ummery:</i></strong></h1>
-    <ul id="list_1">
+    <ul class="list_1">
+        <ul id="list_2">
         <li>Having 5 years of experience in developing Single page Web Applications using <span id="imp">Angular 13</span>, HTML5, CSS3, Bootstrap 5, JavaScript, ES6, TypeScript Experience on working with version control system - GIT and GitHub</li>
         <li>Experience working with JIRA for user stories and bug tracking</li>
         <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
@@ -41,6 +51,7 @@
         <li>Good working experience under Agile methodologies environment</li>
         <li>Experience in using Chrome Developer Tool for debugging and troubleshooting the code Knowledge of NodeJS</li>
         <li>Knowledge of API and Database</li>
+    </ul>
     </ul>   
 </body>
 </html>
