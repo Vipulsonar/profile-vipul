@@ -1,0 +1,90 @@
+
+
+
+.vsdiv{
+    box-sizing: border-box;
+    border: 1px solid blue;
+    height: 800px;
+    width: 100%;
+    margin-left: ;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #4c4c73;
+    box-shadow: inset -36px -200px 111px -195px rgb(27, 28, 28);
+}
+
+.headerDiv{margin-left: px;
+background-color: #3d3d4e;}
+
+.tagDiv{
+    font-size: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+.headingHome{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.headingHome1{
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+#highlight{
+    color: rgb(189, 25, 25); 
+   }
+
+   .bodyMain{
+    display: inline;
+    display: flex;
+}
+
+#imgFirst{
+    width: 90%;
+}    
+#imgSec{
+    width: 90%;
+}
+
+h5{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-style: italic;   
+    margin-top: 5px; 
+}
+
+.paraCom{
+    font-size: 20px;
+}
+
+
+.mainBottom{
+    margin-top: 110px;
+    text-align: end;
+    margin-right: 10px;
+}
+
+.bodyMain{
+    margin-left: 20px;
+    background-color: #4c4c73;
+}
+.homeMain{
+    margin-left: 0px;
+    background-color: #9595da;
+}
+
+#lgbck{
+    margin-left: 20px;
+}
+
+#homeback{
+    margin-left: 20px;
+}
+#bodybck{
+    background-color:#4c4c73;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    
+}
+
