@@ -4,11 +4,11 @@
 .vsdiv{
     box-sizing: border-box;
     border: 1px solid blue;
-    height: 800px;
+    height: 700px;
     width: 100%;
     margin-left: ;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: px;
     background-color: #4c4c73;
     box-shadow: inset -36px -200px 111px -195px rgb(27, 28, 28);
 }
@@ -60,7 +60,7 @@ h5{
 
 
 .mainBottom{
-    margin-top: 110px;
+    margin-top: 0PX;
     text-align: end;
     margin-right: 10px;
 }
